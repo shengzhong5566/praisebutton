@@ -1,0 +1,11 @@
+node_modules
+.idea
+.DS_Store
+.sass-cache
+.tmp
+npm-debug.log
+.log
+dump
+.rdb
+pg_db
+.tags

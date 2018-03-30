@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>praiseButton</title>
+    <link rel="stylesheet" href="dist/css/praise.css">
+    <script src="./dist/js/jquery-3.3.1.min.js"></script>
+    <script src="node_modules/systemjs/dist/system-production.js"></script>
+</head>
+<body>
+    <div id="app" class="praise-content"></div>
+    <script>
+        SystemJS.import('./dist/js/ThumbButton.js').then(function (m) {
+            $.fn.Thumb = function () {
+                return new m.default(this);
+            };
+            $("#app").Thumb();
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+*{ margin: 0; padding: 0;}
+.praise-content{ text-align: center;}
+.praise-button{ cursor: pointer; position: relative; background:#3582ff; background-size:cover; width: 293px; height: 293px; border-radius:50%;margin: 50px auto; }
+.thumb-one{
+    position: absolute;
+    left: 70px;
+    top: 122px;
+    width: 43px;
+    height: 84px;
+    border-radius: 8px;
+    background: #fff;
+}
+.thumb-one:after{
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50%;
+    border:5px solid #3582ff;
+}
+.thumb-two{
+    position: absolute;
+    left: 120px;
+    top: 181px;
+    width: 93px;
+    height: 19px;
+    border-radius: 0 9px 9px 5px;
+    background: #fff;
+}
+.thumb-three{
+    position: absolute;
+    left: 120px;
+    top: 160px;
+    width: 98px;
+    height: 21px;
+    border-radius: 0 11px 11px 0;
+    background: #fff;
+}
+.thumb-four{
+    position: absolute;
+    left: 120px;
+    top: 136px;
+    width: 102px;
+    height: 24px;
+    border-radius: 0 12px 12px 0;
+    background: #fff;
+}
+.thumb-five{
+    position: absolute;
+    left: 120px;
+    top: 112px;
+    width: 102px;
+    height: 25px;
+    border-radius: 20px 12px 12px 0;
+    background: #fff;
+}
+.thumb-six{
+    position: absolute;
+    left: 113px;
+    top: 92px;
+    width: 75px;
+    height: 25px;
+    transform: rotate(-43deg);
+    border-radius: 50%;
+    background: #fff;
+}
+.thumb-six:after{
+    content: '';
+    position: absolute;
+    left: 61px;
+    top: -9px;
+    width: 16px;
+    height: 38px;
+    border-radius: 50%;
+    background: #ffffff;
+    transform: rotate(56deg);
+}
